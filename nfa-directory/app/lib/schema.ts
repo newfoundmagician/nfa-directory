@@ -1,7 +1,7 @@
 import { ClientProfile, BlogPost, Category } from "./data";
 
-const SITE_NAME = "TradeLine Local"; // placeholder platform name — swap once domain is finalized
-const SITE_URL = "https://www.example.com"; // swap for the real domain
+const SITE_NAME = "TradeLine Local"; // rename anytime — update this one line
+const SITE_URL = "https://nfa-directory.vercel.app"; // update if you later move to a custom domain
 
 // LocalBusiness schema — only includes fields we actually have real data for.
 // streetAddress, postalCode, openingHours, and license number are
@@ -10,6 +10,16 @@ export function localBusinessSchema(
   client: ClientProfile,
   category: Category
 ) {
+  const address: Record<string, unknown> = {
+    "@type": "PostalAddress",
+    addressLocality: client.city,
+    addressRegion: client.region,
+    addressCountry: "US",
+  };
+  // Only added when the client's own site actually states it — never placeholdered.
+  if (client.streetAddress) address.streetAddress = client.streetAddress;
+  if (client.postalCode) address.postalCode = client.postalCode;
+
   const schema: Record<string, unknown> = {
     "@context": "https://schema.org",
     "@type": "HomeAndConstructionBusiness",
@@ -18,12 +28,7 @@ export function localBusinessSchema(
     telephone: client.phone,
     url: `${SITE_URL}/${category.slug}/${client.slug}`,
     sameAs: [client.externalWebsite, ...client.social.map((s) => s.url)],
-    address: {
-      "@type": "PostalAddress",
-      addressLocality: client.city,
-      addressRegion: client.region,
-      addressCountry: "US",
-    },
+    address,
     areaServed: `${client.city}, ${client.region}`,
     makesOffer: client.services.map((service) => ({
       "@type": "Offer",
@@ -33,6 +38,14 @@ export function localBusinessSchema(
       },
     })),
   };
+
+  if (client.licenseNumber) {
+    schema.identifier = {
+      "@type": "PropertyValue",
+      name: "License Number",
+      value: client.licenseNumber,
+    };
+  }
 
   return schema;
 }
