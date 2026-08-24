@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+  --font-slab: Georgia, "Iowan Old Style", "Palatino Linotype", "Book Antiqua",
+    serif;
+  --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif;
+  --font-mono: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+}
+
+body {
+  background-color: #F7F5EF;
+  color: #1F2430;
+}
+
+.ticket-stamp {
+  border: 2px solid #14213D;
+  border-radius: 9999px;
+  position: relative;
+}
+
+.ticket-stamp::before {
+  content: "";
+  position: absolute;
+  inset: 4px;
+  border: 1px dashed #14213D;
+  border-radius: 9999px;
+  opacity: 0.5;
+}
+
+.rule-dashed {
+  background-image: repeating-linear-gradient(
+    to right,
+    #D8D3C4 0,
+    #D8D3C4 6px,
+    transparent 6px,
+    transparent 12px
+  );
+  height: 1px;
+}
+
+:focus-visible {
+  outline: 2px solid #FF6B35;
+  outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
