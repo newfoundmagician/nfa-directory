@@ -96,4 +96,29 @@ export function breadcrumbSchema(
   };
 }
 
+// ---------------------------------------------------------------------------
+// SEO METADATA HELPERS
+// One place to build titles/descriptions so every page follows the same
+// "primary local keyword first" pattern: {service/category} in {city, region}.
+// ---------------------------------------------------------------------------
+
+export function clientMetaTitle(client: ClientProfile, category: Category) {
+  return `${category.singular} in ${client.city}, ${client.region} — ${client.businessName}`;
+}
+
+export function clientMetaDescription(client: ClientProfile, category: Category) {
+  const base = `${client.businessName} is a ${category.singular.toLowerCase()} serving ${client.city}, ${client.region}.`;
+  const services = client.services.slice(0, 3).join(", ");
+  const combined = `${base} Services include ${services}.`;
+  return combined.length > 160 ? combined.slice(0, 157) + "..." : combined;
+}
+
+export function postMetaTitle(post: BlogPost, client: ClientProfile, category: Category) {
+  return `${post.title} | ${client.businessName}, ${client.city} ${category.singular}`;
+}
+
+export function categoryMetaTitle(category: Category) {
+  return `${category.name} — Find a Local ${category.singular} Near You`;
+}
+
 export { SITE_NAME, SITE_URL };
