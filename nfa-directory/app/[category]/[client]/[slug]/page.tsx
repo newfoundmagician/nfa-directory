@@ -3,8 +3,9 @@ import Link from "next/link";
 import Header from "../../../components/Header";
 import Footer from "../../../components/Footer";
 import JsonLd from "../../../components/JsonLd";
+import Breadcrumbs from "../../../components/Breadcrumbs";
 import { getCategory, getClient, getPost, getAllPosts } from "../../../lib/data";
-import { blogPostingSchema, breadcrumbSchema } from "../../../lib/schema";
+import { blogPostingSchema, breadcrumbSchema, postMetaTitle } from "../../../lib/schema";
 import type { Metadata } from "next";
 
 export function generateStaticParams() {
@@ -16,10 +17,12 @@ export function generateMetadata({
 }: {
   params: { category: string; client: string; slug: string };
 }): Metadata {
+  const category = getCategory(params.category);
+  const client = getClient(params.category, params.client);
   const post = getPost(params.client, params.slug);
-  if (!post) return {};
+  if (!post || !client || !category) return {};
   return {
-    title: post.title,
+    title: postMetaTitle(post, client, category),
     description: post.excerpt,
   };
 }
@@ -53,6 +56,17 @@ export default function PostPage({
       />
       <Header />
       <main className="mx-auto max-w-3xl px-6 py-16">
+        <Breadcrumbs
+          items={[
+            { name: "Home", href: "/" },
+            { name: category.name, href: `/${category.slug}` },
+            {
+              name: client.businessName,
+              href: `/${category.slug}/${client.slug}`,
+            },
+            { name: post.title },
+          ]}
+        />
         <Link
           href={`/${category.slug}/${client.slug}`}
           className="font-mono text-[11px] uppercase tracking-widest text-slate hover:text-signal"
