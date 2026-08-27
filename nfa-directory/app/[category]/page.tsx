@@ -3,8 +3,9 @@ import Header from "../components/Header";
 import Footer from "../components/Footer";
 import ClientCard from "../components/ClientCard";
 import JsonLd from "../components/JsonLd";
+import Breadcrumbs from "../components/Breadcrumbs";
 import { getCategory, getClientsByCategory, getCategories } from "../lib/data";
-import { breadcrumbSchema } from "../lib/schema";
+import { breadcrumbSchema, categoryMetaTitle } from "../lib/schema";
 import type { Metadata } from "next";
 
 export function generateStaticParams() {
@@ -19,7 +20,7 @@ export function generateMetadata({
   const category = getCategory(params.category);
   if (!category) return {};
   return {
-    title: category.name,
+    title: categoryMetaTitle(category),
     description: category.description,
   };
 }
@@ -44,6 +45,12 @@ export default function CategoryPage({
       />
       <Header />
       <main className="mx-auto max-w-5xl px-6 py-16">
+        <Breadcrumbs
+          items={[
+            { name: "Home", href: "/" },
+            { name: category.name },
+          ]}
+        />
         <p className="font-mono text-xs uppercase tracking-widest text-signal">
           Industry
         </p>
