@@ -1,0 +1,56 @@
+[
+  {
+    "slug": "painting-contractor",
+    "name": "Painting Contractors",
+    "singular": "Painting Contractor",
+    "description": "Interior, exterior, residential, and commercial painting crews — profiled and updated weekly."
+  },
+  {
+    "slug": "handyman-services",
+    "name": "Handyman Services",
+    "singular": "Handyman",
+    "description": "General home repair, installation, and maintenance crews for jobs too small or too varied for a single-trade contractor."
+  },
+  {
+    "slug": "general-contractor",
+    "name": "General Contractors",
+    "singular": "General Contractor",
+    "description": "Remodeling and full-project construction contractors handling everything from single rooms to multi-trade builds."
+  },
+  {
+    "slug": "masonry-chimney",
+    "name": "Masonry & Chimney Contractors",
+    "singular": "Masonry & Chimney Contractor",
+    "description": "Chimney restoration and masonry repair specialists — brick, stone, and chimney structural work."
+  },
+  {
+    "slug": "moving-storage",
+    "name": "Moving & Storage Companies",
+    "singular": "Moving & Storage Company",
+    "description": "Residential and commercial movers offering local moving and storage services."
+  },
+  {
+    "slug": "landscaping",
+    "name": "Landscaping Contractors",
+    "singular": "Landscaping Contractor",
+    "description": "Landscape design, lawn care, and property maintenance crews serving residential and commercial properties."
+  },
+  {
+    "slug": "hvac-contractor",
+    "name": "HVAC Contractors",
+    "singular": "HVAC Contractor",
+    "description": "Heating and air conditioning installation, repair, and maintenance specialists."
+  },
+  {
+    "slug": "home-remodeling",
+    "name": "Home Remodeling Contractors",
+    "singular": "Home Remodeling Contractor",
+    "description": "Specialty home remodeling and exterior improvement contractors."
+  },
+  {
+    "slug": "tree-services",
+    "name": "Tree Services",
+    "singular": "Tree Service",
+    "description": "Tree removal, trimming, and stump grinding companies for residential and commercial properties."
+  }
+]
