@@ -1,0 +1,242 @@
+[
+  {
+    "slug": "mathews-painting",
+    "categorySlug": "painting-contractor",
+    "businessName": "Mathew's Painting",
+    "city": "Manassas Park",
+    "region": "VA",
+    "phone": "(703) 740-3396",
+    "externalWebsite": "https://www.mathews-painting.com/",
+    "description": "Licensed and insured painting contractor serving Manassas Park, VA and the surrounding area for more than 30 years, covering interior and exterior painting, drywall repair, pressure washing, and related surface work for homes and businesses.",
+    "services": [
+      "Interior Painting",
+      "Exterior Painting",
+      "Commercial Painting",
+      "Residential Painting",
+      "Pressure Washing",
+      "Drywall Repair",
+      "Drywall Spackle",
+      "Fence Painting",
+      "Deck Painting",
+      "Basement Finishing"
+    ],
+    "yearsExperience": 30,
+    "customersServed": "10,000+",
+    "social": [
+      {
+        "platform": "Facebook",
+        "url": "https://facebook.com/mathewspaintingllc"
+      },
+      {
+        "platform": "Yelp",
+        "url": "https://yelp.com/biz/mathews-painting-manassas-park"
+      }
+    ],
+    "currentPromo": "Paint 4 rooms and the 5th room is free."
+  },
+  {
+    "slug": "julian-ramos-painting",
+    "categorySlug": "painting-contractor",
+    "businessName": "Julian Ramos Painting",
+    "city": "Riverside",
+    "region": "CA",
+    "phone": "(951) 221-4544",
+    "externalWebsite": "https://www.julianramospainting.net/",
+    "description": "Painting contractor bringing 19 years of experience to residential and commercial projects in Riverside, CA and the surrounding area, including stucco repair and texture matching alongside standard interior and exterior work.",
+    "services": [
+      "Interior Painting",
+      "Exterior Painting",
+      "Commercial Painting",
+      "Residential Painting",
+      "Drywall Repair",
+      "Stucco Repair",
+      "Texture Matching"
+    ],
+    "yearsExperience": 19,
+    "customersServed": "10,000+",
+    "social": [
+      {
+        "platform": "Facebook",
+        "url": "https://facebook.com/Julian-Ramos-Painting-104360165157598"
+      },
+      {
+        "platform": "Yelp",
+        "url": "https://yelp.com/biz/R9Ni-BHjRtEIXfnjZPRA9g"
+      }
+    ],
+    "currentPromo": "5% off all services — holiday special."
+  },
+  {
+    "slug": "all-around-property-solutions",
+    "categorySlug": "handyman-services",
+    "businessName": "All Around Property Solutions",
+    "city": "Foley",
+    "region": "AL",
+    "phone": "(251) 384-4944",
+    "externalWebsite": "https://www.allaroundpropertysolutions.com/",
+    "description": "Family-owned, licensed and insured handyman company serving Foley, AL and the surrounding Baldwin, Clarke, Conecuh, and Monroe counties, covering home repairs, installations, carpentry, drywall, painting, flooring, landscape work, and debris removal.",
+    "services": [
+      "Handyman Services",
+      "Landscape Services",
+      "Debris Removal"
+    ],
+    "social": [
+      {
+        "platform": "Facebook",
+        "url": "https://facebook.com/profile.php?id=61591861850930"
+      },
+      {
+        "platform": "Yelp",
+        "url": "https://yelp.com/biz/all-around-property-solutions-foley"
+      }
+    ],
+    "streetAddress": "7184 Helton Dr",
+    "postalCode": "36535"
+  },
+  {
+    "slug": "alabama-ccc",
+    "categorySlug": "general-contractor",
+    "businessName": "Alabama CCC LLC",
+    "city": "Anniston",
+    "region": "AL",
+    "phone": "(256) 406-0236",
+    "externalWebsite": "https://www.alabamacccllc.com/",
+    "description": "Veteran owned, locally owned and operated general contractor established in 2023, serving Anniston, AL and surrounding Calhoun County communities with remodeling, tile, flooring, custom decks, and kitchen and bathroom remodeling.",
+    "services": [
+      "Tile Services",
+      "Flooring Services",
+      "Remodeling Services",
+      "Custom Decks",
+      "Kitchen Remodeling",
+      "Bathroom Remodeling"
+    ],
+    "social": [
+      {
+        "platform": "Facebook",
+        "url": "https://facebook.com/profile.php?id=61589239918190"
+      },
+      {
+        "platform": "Yelp",
+        "url": "https://yelp.com/biz/alabama-construction-consultanting-and-contracting-anniston"
+      }
+    ],
+    "streetAddress": "575 Kingsway Drive",
+    "postalCode": "36207"
+  },
+  {
+    "slug": "fino-masonry-chimney",
+    "categorySlug": "masonry-chimney",
+    "businessName": "Fino Masonry & Chimney Restoration",
+    "city": "Rochester",
+    "region": "NY",
+    "phone": "(585) 401-4655",
+    "externalWebsite": "https://finomasonryandchimney.com/",
+    "description": "Family-owned, third-generation chimney and masonry restoration company with more than 40 years of experience, CSIA certified, serving Rochester, NY and a 50-mile radius across 10 counties.",
+    "services": [
+      "Chimney Repair & Restoration",
+      "Masonry Restoration"
+    ],
+    "yearsExperience": 40,
+    "social": []
+  },
+  {
+    "slug": "statewide-moving-co",
+    "categorySlug": "moving-storage",
+    "businessName": "State-Wide Moving Co, Inc.",
+    "city": "Hightstown",
+    "region": "NJ",
+    "phone": "(609) 362-5444",
+    "externalWebsite": "https://www.statewidemovingco.net/",
+    "description": "Family-owned moving and storage company serving Hightstown, NJ and 17 towns across central New Jersey.",
+    "services": [
+      "Moving Services",
+      "Storage Services"
+    ],
+    "social": []
+  },
+  {
+    "slug": "tsl-landscaping",
+    "categorySlug": "landscaping",
+    "businessName": "TSL Landscaping & Property Maintenance",
+    "city": "Murfreesboro",
+    "region": "TN",
+    "phone": "(615) 622-6787",
+    "externalWebsite": "https://www.tsllandscaping.com/",
+    "description": "Licensed and insured landscaping and property maintenance company serving Murfreesboro, TN since 2008, covering Brentwood, Columbia, Franklin, Nashville, Springfield, and Rutherford County.",
+    "services": [
+      "Landscape Design",
+      "Flower Bed Planting",
+      "Vegetation Management",
+      "Pressure Washing",
+      "Remedial Tree Work"
+    ],
+    "social": [
+      {
+        "platform": "Facebook",
+        "url": "https://facebook.com/profile.php?id=61591344970178"
+      },
+      {
+        "platform": "Yelp",
+        "url": "https://yelp.com/biz/tsl-property-maintenance-murfreesboro"
+      }
+    ],
+    "licenseNumber": "6045"
+  },
+  {
+    "slug": "affordable-heating-air",
+    "categorySlug": "hvac-contractor",
+    "businessName": "Affordable Heating and Air Conditioning",
+    "city": "Santa Rosa",
+    "region": "CA",
+    "phone": "(707) 466-8337",
+    "externalWebsite": "https://www.affordableheatingnairconditioning.com/",
+    "description": "Veteran-owned HVAC contractor with more than 36 years of experience serving Santa Rosa, CA and the surrounding area.",
+    "services": [
+      "Heating Services",
+      "Air Conditioning Services"
+    ],
+    "yearsExperience": 36,
+    "social": []
+  },
+  {
+    "slug": "glazed-cellar-doors",
+    "categorySlug": "home-remodeling",
+    "businessName": "Glazed Cellar Doors",
+    "city": "Washington",
+    "region": "NJ",
+    "phone": "(908) 883-3877",
+    "externalWebsite": "https://www.glazedcellardoors.com/",
+    "description": "Cellar and Bilco door specialist by Confident Home Remodelers, a Steelway dealer installing glazed (non-painted) cellar doors set in hydraulic anchor cement instead of standard mortar, serving Warren County and Clifton, NJ, plus the Lehigh Valley, PA area.",
+    "services": [
+      "Cellar Door Installation",
+      "Cellar Door Glazing",
+      "Cement Work"
+    ],
+    "social": [],
+    "streetAddress": "3 Singley Lane",
+    "postalCode": "07882"
+  },
+  {
+    "slug": "two-men-and-a-tree",
+    "categorySlug": "tree-services",
+    "businessName": "Two Men and a Tree LLC",
+    "city": "Dade City",
+    "region": "FL",
+    "phone": "(352) 410-8711",
+    "externalWebsite": "https://www.twomenandatree.net/",
+    "description": "Veteran-owned, family-owned and operated tree service backed by 60 years of combined experience, licensed and insured, serving Dade City, FL and Clermont, Hernando County, Spring Hill, Wesley Chapel, and Zephyrhills.",
+    "services": [
+      "Tree Removal",
+      "Stump Grinding",
+      "Tree Trimming"
+    ],
+    "social": [
+      {
+        "platform": "Facebook",
+        "url": "https://facebook.com/profile.php?id=61590709770789"
+      }
+    ],
+    "streetAddress": "3410 Jodi W Dr",
+    "postalCode": "33523"
+  }
+]
