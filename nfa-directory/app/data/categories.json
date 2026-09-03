@@ -52,5 +52,23 @@
     "name": "Tree Services",
     "singular": "Tree Service",
     "description": "Tree removal, trimming, and stump grinding companies for residential and commercial properties."
+  },
+  {
+    "slug": "junk-removal",
+    "name": "Junk Removal Services",
+    "singular": "Junk Removal Company",
+    "description": "Junk hauling, debris removal, and cleanout services for homes and businesses."
+  },
+  {
+    "slug": "pressure-washing",
+    "name": "Pressure Washing & Exterior Cleaning",
+    "singular": "Pressure Washing Company",
+    "description": "Exterior surface cleaning and restoration — pressure washing, concrete, and related surface treatments."
+  },
+  {
+    "slug": "paving-sealcoating",
+    "name": "Paving & Sealcoating Contractors",
+    "singular": "Paving Contractor",
+    "description": "Asphalt sealcoating, paver installation, and driveway/pavement repair specialists."
   }
 ]
