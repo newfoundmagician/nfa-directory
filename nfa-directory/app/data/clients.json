@@ -238,5 +238,153 @@
     ],
     "streetAddress": "3410 Jodi W Dr",
     "postalCode": "33523"
+  },
+  {
+    "slug": "brooks-property-solutions",
+    "categorySlug": "junk-removal",
+    "businessName": "Brooks Property Solutions",
+    "city": "Limestone",
+    "region": "TN",
+    "phone": "(423) 873-7889",
+    "externalWebsite": "https://www.brooksproperty.net/",
+    "description": "Family-owned, licensed and insured junk removal company serving Limestone, TN and the surrounding Carter, Greene, Sullivan, Unicoi, and Washington counties since 2011.",
+    "services": ["Junk Removal", "Demolition", "Vehicle Removal"],
+    "social": []
+  },
+  {
+    "slug": "capital-exterior-solutions",
+    "categorySlug": "pressure-washing",
+    "businessName": "Capital Exterior Solutions LLC",
+    "city": "Albany",
+    "region": "NY",
+    "phone": "(518) 974-6466",
+    "externalWebsite": "https://www.capitalextsol.com/",
+    "description": "Pressure washing and exterior surface restoration company serving Albany, NY and the surrounding Albany County, Clifton Park, Colonie, Latham, Schenectady, and Slingerlands area.",
+    "services": [
+      "Pressure Washing",
+      "Asphalt Sealcoating",
+      "Concrete Caulking",
+      "Stamped Concrete Sealing",
+      "Concrete Overlays & Self-Leveling",
+      "Epoxy Flooring"
+    ],
+    "social": []
+  },
+  {
+    "slug": "itamex-builders",
+    "categorySlug": "general-contractor",
+    "businessName": "Itamex Builders",
+    "city": "Longmont",
+    "region": "CO",
+    "phone": "(720) 477-7587",
+    "externalWebsite": "https://www.itamexbuilders.com/",
+    "description": "Licensed and insured general contractor serving Longmont, CO and the surrounding Boulder County area since 1996, specializing in residential construction, framing, and remodeling.",
+    "services": [
+      "Framing Services",
+      "Room Additions",
+      "Kitchen Remodeling",
+      "Bathroom Remodeling",
+      "Roofing Services",
+      "General Contractor"
+    ],
+    "social": []
+  },
+  {
+    "slug": "fat-dragon-designs",
+    "categorySlug": "junk-removal",
+    "businessName": "Fat Dragon Designs LLC",
+    "city": "Aiken",
+    "region": "SC",
+    "phone": "(805) 752-8161",
+    "externalWebsite": "https://www.fatdragondesignsllc.com/",
+    "description": "Junk removal company serving Aiken, SC and the surrounding area, offering hauling, yard debris removal, and waste disposal for residential and commercial customers.",
+    "services": ["Junk Removal", "Yard Debris Removal", "Hauling Services", "Waste Disposal Service"],
+    "social": [
+      { "platform": "Facebook", "url": "https://facebook.com/profile.php?id=61591921493465" },
+      { "platform": "Yelp", "url": "https://yelp.com/biz/fat-dragon-designs-llc-aiken" }
+    ]
+  },
+  {
+    "slug": "montero-tree-services",
+    "categorySlug": "tree-services",
+    "businessName": "Montero Tree Services LLC",
+    "city": "Tampa",
+    "region": "FL",
+    "phone": "(813) 863-2936",
+    "externalWebsite": "https://www.monterotrees.com/",
+    "description": "Licensed and insured tree service with more than 14 years of experience serving Tampa, FL, offering tree trimming, removal, stump removal, and 24-hour emergency tree service.",
+    "services": [
+      "Tree Trimming",
+      "Tree Removal",
+      "24-Hour Emergency Tree Removal",
+      "Stump Removal",
+      "Residential Tree Services"
+    ],
+    "yearsExperience": 14,
+    "social": []
+  },
+  {
+    "slug": "marroquin-landscape-services",
+    "categorySlug": "landscaping",
+    "businessName": "Marroquin Landscape Services LLC",
+    "city": "Los Angeles",
+    "region": "CA",
+    "phone": "(818) 297-6752",
+    "externalWebsite": "https://www.lamarroquinlandscapeservices.com/",
+    "description": "Landscaping company serving Los Angeles, CA, offering artificial turf installation, garden design, hardscaping, and tree services for residential and commercial properties.",
+    "services": [
+      "Artificial Turf Installation",
+      "Landscaping Services",
+      "Hardscaping",
+      "Garden Design",
+      "Tree Services",
+      "Pavers"
+    ],
+    "social": [
+      { "platform": "Facebook", "url": "https://facebook.com/profile.php?id=61580142833035" },
+      { "platform": "Yelp", "url": "https://yelp.com/biz/marroquin-landscape-services-llc-san-fernando-valley" }
+    ]
+  },
+  {
+    "slug": "biltwell-sealcoat",
+    "categorySlug": "paving-sealcoating",
+    "businessName": "Biltwell Sealcoat",
+    "city": "Alexander",
+    "region": "NC",
+    "phone": "(828) 377-2177",
+    "externalWebsite": "https://www.biltwellsealcoat.com/",
+    "description": "Family-owned sealcoating and paving contractor serving Alexander, NC since 2001, offering asphalt sealcoating, crack filling, driveway sealcoating, and patch work.",
+    "services": ["Asphalt Sealcoating", "Crack Filling", "Driveway Sealcoating", "Patch Work", "Sealcoating"],
+    "licenseNumber": "104421L",
+    "social": [
+      { "platform": "Facebook", "url": "https://facebook.com/profile.php?id=61576710699605" },
+      { "platform": "Yelp", "url": "https://yelp.com/biz/biltwell-sealcoat-alexander" }
+    ]
+  },
+  {
+    "slug": "jls-pavers",
+    "categorySlug": "paving-sealcoating",
+    "businessName": "JLS Pavers",
+    "city": "St. Augustine",
+    "region": "FL",
+    "phone": "(904) 776-2627",
+    "externalWebsite": "https://www.jlspavers.com/",
+    "description": "Family-owned paver installation company serving Northeast Florida's Saint Johns, Duval, and Clay counties, with five years of experience in paver installation, repair, and retaining walls.",
+    "services": [
+      "Paver Installation",
+      "Paver Repair",
+      "Retaining Walls",
+      "Artificial Turf",
+      "Low Voltage Landscape Lighting",
+      "Drainage Services"
+    ],
+    "yearsExperience": 5,
+    "social": [
+      { "platform": "Facebook", "url": "https://facebook.com/profile.php?id=61575895221020" },
+      { "platform": "Instagram", "url": "https://instagram.com/jls_pavers" },
+      { "platform": "Yelp", "url": "https://yelp.com/biz/jls-pavers-st-augustine-2" }
+    ],
+    "streetAddress": "1417 Tintern Lane",
+    "postalCode": "32092"
   }
 ]
